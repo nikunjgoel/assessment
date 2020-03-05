@@ -11,7 +11,9 @@ public class ExtentManager {
 	public static ExtentReports getInstance() {
 
 		if (_extent == null) {
-
+                    System.out.println("ConfigPAth "+ Config.reportPath);
+                    System.out.println("Configreport "+ Config.reportConfigFilePath);
+			
 			_extent = new ExtentReports(Config.reportPath, true);
 			_extent.loadConfig(new File(Config.reportConfigFilePath));
 

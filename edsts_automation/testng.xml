@@ -11,7 +11,7 @@
 	<test name="CookieAcceptance">
 	<parameter name="browser" value="chrome"/>
 	<parameter name="env" value="QA"/>
-	<parameter name="siteurl" value="https://www.johnlewis.com/"/> 
+	<parameter name="siteUrl" value="https://www.johnlewis.com/"/> 
 		<classes>
 			<class name="runner.TestRunner" />
 		
